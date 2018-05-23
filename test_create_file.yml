@@ -1,9 +1,0 @@
---- 
-- name: 'test create a file'
-  file: 
-    path: '/tmp/prueba'
-    state: present
-
-- name: 'debug'
-  debug: 
-    msg: "file created into /tmp/"
